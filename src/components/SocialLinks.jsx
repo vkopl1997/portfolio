@@ -31,7 +31,7 @@ export const SocialLinks = () => {
                   Mail <GrMail size={30}/>
                 </>
             ),
-            href:'mailto:foo@gmail.com',
+            href:'mailto:@vkopl2016@agruni.edu.ge',
         },
         {
             id:4,
