@@ -5,6 +5,8 @@ import todo from '../assets/portfolio/todo.jpg';
 import carrepair from '../assets/portfolio/carrepair.jpg';
 import burascores from '../assets/portfolio/burascores.jpg';
 import loginsignup from '../assets/portfolio/loginsignup.jpg';
+import { RiArrowRightSFill } from 'react-icons/ri';
+
 
 
 
@@ -56,7 +58,14 @@ export const Portfolio = () => {
               <img src={src} alt='ddd' className='rounded-md duration-200 hover:scale-105'/>
               <div className='flex items-center justify-center'>
                 {/* <button className='w-1/2 py-3 px-6 m-4 duration-200 hover:scale-105' >demo</button> */}
-                <a href={link} target='_blank' rel="noreferrer" className='w-1/2 py-3 px-6 m-4 duration-200 hover:scale-105' >code</a>
+                <a href={link} target='_blank' rel="noreferrer" className='w-1/2 py-3 px-6 
+                m-4 duration-200 hover:scale-105'>
+                  <button className='group flex bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer rounded-md py-1 px-4'>
+                    code
+                    <span className='px-1 group-hover:ml-[4px] duration-300'>
+                            <RiArrowRightSFill size={25}/>
+                        </span>
+                  </button></a>
               </div> 
             </div>
           )) }
